@@ -36,7 +36,7 @@ public class FrogSimulation
 	public double runSimulations(int num)
 	{ 
 		double success = 0; 
-		for (int i = 0; i < n um; i++){
+		for (int i = 0; i < num; i++){
 			if(this.simulate() == true){
 				success += 1;  
 			}
